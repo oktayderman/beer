@@ -1,4 +1,4 @@
-package brewery;
+package brewery.model;
 
 import brewery.model.CustomerDto;
 import org.springframework.data.domain.PageImpl;
