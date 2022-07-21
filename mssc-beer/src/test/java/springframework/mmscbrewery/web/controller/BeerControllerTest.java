@@ -18,7 +18,7 @@ import java.util.UUID;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@WebMvcTest(BeerController.class)
+@WebMvcTest(BeerController.class)//todoProd test
 class BeerControllerTest {
     @MockBean
     BeerService beerService;
