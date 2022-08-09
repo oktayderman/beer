@@ -1,4 +1,4 @@
-package springframework.mmscbrewery.web.services;
+package sfg.beer.order.service.services;
 
 import brewery.model.CustomerDto;
 
