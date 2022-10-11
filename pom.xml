@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>beer</artifactId>
+    <groupId>springframework</groupId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>beer</name>
+    <description>Beer </description>
+
+    <modules>
+        <module>mssc-brewery-bom</module>
+        <module>mssc-beer-order-service</module>
+        <module>mssc-beer-service</module>
+    </modules>
+
+</project>
