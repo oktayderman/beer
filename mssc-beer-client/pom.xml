@@ -27,7 +27,7 @@
         </dependency>
         <dependency>
             <groupId>springframework</groupId>
-            <artifactId>mmsc-beer</artifactId>
+            <artifactId>mssc-beer</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 	</dependencies>

@@ -119,7 +119,7 @@ services:
 
 
    beer-service:
-     image: armando1514/mmsc-beer:0.0.1-SNAPSHOT
+     image: armando1514/mssc-beer:0.0.1-SNAPSHOT
      ports:
        - 8080:8080
      depends_on:
@@ -201,7 +201,7 @@ services:
 
 
    order-service:
-     image: armando1514/mmsc-beer-order-service:0.0.1-SNAPSHOT
+     image: armando1514/mssc-beer-order-service:0.0.1-SNAPSHOT
      ports:
        - 8081:8081
      depends_on:

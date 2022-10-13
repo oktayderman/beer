@@ -9,9 +9,9 @@
 	</parent>
 
 	<groupId>springframework</groupId>
-	<artifactId>mmsc-beer</artifactId>
+	<artifactId>mssc-beer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mmsc-beer</name>
+	<name>mssc-beer</name>
 	<description>SFG Beer</description>
 	<properties>
 		<directoryName>mssc-beer</directoryName>

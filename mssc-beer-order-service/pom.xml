@@ -7,10 +7,10 @@
         <artifactId>mssc-brewery-bom</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>mmsc-beer-order-service</artifactId>
+    <artifactId>mssc-beer-order-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mmsc-beer-order-service</name>
-    <description>MMSC Beer Order Service</description>
+    <name>mssc-beer-order-service</name>
+    <description>mssc Beer Order Service</description>
     <properties>
         <directoryName>mssc-beer-order</directoryName>
     </properties>
