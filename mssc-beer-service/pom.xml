@@ -6,15 +6,15 @@
 		<groupId>springframework</groupId>
 		<artifactId>mssc-brewery-bom</artifactId>
 		<version>1.0-SNAPSHOT</version>
+		<relativePath></relativePath>
 	</parent>
 
-	<groupId>springframework</groupId>
-	<artifactId>mssc-beer</artifactId>
+	<artifactId>mssc-beer-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mssc-beer</name>
+	<name>mssc-beer-service</name>
 	<description>SFG Beer</description>
 	<properties>
-		<directoryName>mssc-beer</directoryName>
+		<directoryName>mssc-beer-service</directoryName>
 	</properties>
 	<dependencies>
 		<dependency>
