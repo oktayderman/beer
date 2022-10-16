@@ -37,7 +37,7 @@ public class AllocationListener {
             log.error("Allocation failed for Order Id:" + request.getBeerOrder().getId());
             builder.allocationError(true);
         }
-        System.out.println("cazzo2 failed");
+
 
         jmsTemplate.convertAndSend(JmsConfig.ALLOCATE_ORDER_RESPONSE,
                 builder.build());
