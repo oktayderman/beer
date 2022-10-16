@@ -23,14 +23,14 @@ public class BrewingService {
     private final JmsTemplate jmsTemplate;
     private final BeerMapper beerMapper;
 
-    //todoProd @Scheduled(fixedRate = 5000) // every 5 seconds
+    @Scheduled(fixedRate = 5000) // every 5 seconds
     public void checkForLowInventory(){
         List<Beer> beers = beerRepository.findAll();
 
         beers.forEach(beer -> {
             Integer inventoryQOH = beerInventoryService.getOnhandInventory(beer.getId());
-            log.debug("Min OnHand is: " + beer.getQuantityOnHand());
-            log.debug("Inventory is: " + inventoryQOH);
+            log.debug("Min OnHand is: " + beer.getQuantityOnHand());//beer ->  QUANTITY_ON_HAND
+            log.debug("Inventory is: " + inventoryQOH); // REMOTE inventoryService Q_O_H
 
             if(beer.getQuantityOnHand() >= inventoryQOH) {
                 jmsTemplate.convertAndSend(JmsConfig.BREWING_REQUEST_QUEUE, new BrewBeerEvent(beerMapper.beerToBeerDto(beer)));
