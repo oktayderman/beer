@@ -9,12 +9,12 @@
 		<relativePath></relativePath>
 	</parent>
 
-	<artifactId>mssc-beer-service</artifactId>
+	<artifactId>mssc-brewery-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mssc-beer-service</name>
+	<name>mssc-brewery-service</name>
 	<description>SFG Beer</description>
 	<properties>
-		<directoryName>mssc-beer-service</directoryName>
+		<directoryName>mssc-brewery-service</directoryName>
 	</properties>
 	<dependencies>
 		<dependency>

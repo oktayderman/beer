@@ -12,7 +12,7 @@
     <modules>
         <module>mssc-brewery-bom</module>
         <module>mssc-beer-order-service</module>
-        <module>mssc-beer-service</module>
+        <module>mssc-brewery-service</module>
         <module>mssc-beer-inventory-service</module>
 
     </modules>
